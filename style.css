@@ -238,8 +238,16 @@ textarea:focus {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 45%;
+    margin: 1em auto 5em;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .logo {
+    width: 40%;
     position: relative;
   }
 }
@@ -275,9 +283,9 @@ textarea:focus {
   height: auto;
   display: none;
   position: absolute;
-  top: 7%;
+  top: 2%;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8)
+  background-color: rgba(255, 255, 255, 0.9)
 }
 
 .navigation__small--link {
@@ -293,8 +301,8 @@ textarea:focus {
 
 .hamburger__menu {
   display: none;
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
   position: absolute;
   top: 2%;
   right: 2%;
@@ -341,9 +349,6 @@ textarea:focus {
     font-size: 2em;
     line-height: .9em;
     padding: .3em;
-  }
-  .logo {
-    margin: 2em auto .4em;
   }
 }
 
@@ -448,6 +453,7 @@ textarea:focus {
   }
   .portfolio__collection {
     flex: 1 1 50%;
+    margin: 1% 0 0 0;
   }
 }
 
@@ -464,6 +470,12 @@ textarea:focus {
   font-family: var(--font-primary);
   font-weight: 600;
   margin: 0 0 2em 0;
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio__collection__heading {
+    margin: 0 0 .5em 0;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -507,6 +519,36 @@ textarea:focus {
   margin: 1em auto 0;
 }
 
+@media screen and (max-width: 1100px) {
+  .header__collections__logo {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__collections__logo {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__collections__logo {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__collections__logo {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__collections__logo {
+    width: 90%;
+  }
+}
+
 .header__collections__link {
   width: 100%;
   height: inherit;
@@ -538,10 +580,7 @@ textarea:focus {
 @media screen and (max-width: 1100px) {
   .header__collections__nav {
     width: 100%;
-    margin-top: 5em;
-  }
-  .collections {
-    margin: 2em 0 0 0;
+    margin-top: 2em;
   }
 }
 
@@ -593,6 +632,12 @@ textarea:focus {
 @media screen and (max-width: 1200px) {
   .collections {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .collections {
+    margin: 6em 0 0 0;
   }
 }
 
